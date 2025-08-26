@@ -1,11 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Películas series y más - No te lo puedes perder</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="portada">
+        <div class="contenedor">
+            <img src="imagenes/fondo.png" alt="Logo CineMax" class="logo">
+            <h1 class="titulo">Mejores películas no hay como estas.</h1>
+            <p class="subtitulo">Enterate de las mejores peliculas</p>
+            <button class="boton-inicio" onclick="clic_aqui()">Ver</button>
+        </div>
+    </div>
+
+    <script>
+        function clic_aqui() {
+           
+            window.location.href = 'indice.html';
+        }
+    </script>
 </body>
 </html>
